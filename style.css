@@ -1,0 +1,23 @@
+
+.foto-3x4{
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.icone-HTML{
+    height: 100px;
+    width: 100px;
+    
+}
+.icone-CSS{
+    height: 100px;
+    width: 100px;
+}
+.icone-JAVA{    
+    height: 100px;
+    width: 100px;
+}
