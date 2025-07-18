@@ -21,3 +21,29 @@ a{
     height: 100px;
     width: 100px;
 }
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: sans-serif;
+  padding: 10px 0;
+}
+
+.menu-link {
+    font-size: 18; /* similar ao "text-muted" do Bootstrap */
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
